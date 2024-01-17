@@ -10,8 +10,7 @@ Base = declarative_base()
 
 
 class BaseModel:
-    """A base class for all hbnb models using the sqlalchemy.
-    
+    """A base class for all hbnb models
     """
     id = Column(String(60),
                 nullable=False,
